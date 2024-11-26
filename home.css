@@ -11,7 +11,7 @@ html{
     font-family: "Copperplate", fantasy;
     color:rgb(0, 167, 250);
     font-size:xx-large;
-
+    text-align: center;
     background-color: aliceblue;
     border: 2px solid #ccc;
     border-radius: 10px;
@@ -36,71 +36,60 @@ html{
     border-radius: 10px;
     border-color: black;
     padding-left: 5px;
+    margin: 0px 200px 0px 200px;
 }
-
 .sec1 h1{
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-size: x-large;
+    text-align: center;
 }
-
 .sec1 p{
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-size: large;
 
 }
-/*
+
 .arrowC {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 10px 10px;
+    margin: 10px 0;
+    padding: 0px 200px 0px 200px;
 }
-
-.arrow2, .arrow2 {
-    width: 0;
-    height: 0;
-    border-left: 15px solid transparent;
-    border-right: 15px solid transparent;
-    border-top: 15px solid #0078d7;
-} */
-
-.arrow2 {
+.arrow2, .arrow3 {
     width: 0px;
     height: 0px;
-    margin-left: 81.25px;
     border-left: 25px solid transparent;
     border-right: 25px solid transparent;
     border-top: 40px solid #0078b7;
-    margin-top: 10px;
-    margin-bottom: 10px;
 }
-.arrow3 {
-    width: 0px;
-    height: 0px;
-    margin-left: 569.75px;
-    border-left: 25px solid transparent;
-    border-right: 25px solid transparent;
-    border-top: 40px solid #0078b7;
-    margin-top: 10px;
-    margin-bottom: 10px;
+
+.secCont {
+    display: flex;
+    justify-content: space-between;
+    /*align-items: center;*/
+    margin: 0px 100px 0px 100px;
+    
 }
- 
-.sec2 {
+
+.sec2, .sec3 {
     background-color: aliceblue;
     border: 2px solid #ccc;
     border-radius: 10px;
     border-color: black;
     padding-left: 5px;
 }
-
-.sec2 h1{
+.sec2 h1, .sec3 h1{
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-size: x-large;
+    text-align: center;
 }
-
-.sec2 p{
+.sec2 p, .sec3 p {
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-size: large;
-
 }
+
+
+/*When the screen is changing size*/
+
 
