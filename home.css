@@ -68,16 +68,17 @@ html{
     display: flex;
     justify-content: space-between;
     /*align-items: center;*/
-    margin: 0px 100px 0px 100px;
+    margin: 0 auto;
     
 }
 
-.sec2, .sec3 {
+.sec2, .sec3 { /*wodth oc sectiosn in pixels*/
     background-color: aliceblue;
     border: 2px solid #ccc;
     border-radius: 10px;
     border-color: black;
     padding-left: 5px;
+    width: 30%;
 }
 .sec2 h1, .sec3 h1{
     font-family:Verdana, Geneva, Tahoma, sans-serif;
